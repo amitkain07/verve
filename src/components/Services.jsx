@@ -51,7 +51,7 @@ const Services = () => {
             <div className="absolute bottom-0 left-0 w-14 h-14 bg-[#DF6951] rounded-tr-3xl rounded-bl-2xl scale-0 group-hover:scale-100 transition-transform duration-300 ease-in-out" />
 
             <div className="relative z-10">
-              <div className="mx-auto mb-4 w-20 h-20 flex items-center justify-center rounded-xl bg-[#fef5ea]">
+              <div className="mx-auto mb-4 w-20 h-20 flex items-center justify-center rounded-xl ">
                 <img
                   src={item.img}
                   alt={item.name}
