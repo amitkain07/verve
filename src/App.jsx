@@ -1,20 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-import Navbar from './components/Navbar'
-import Partners from './components/Partners'
-import Footer from './components/Footer'
-import Services from './components/Services'
-import Hero from './components/Hero'
-import Destination from './components/Destination'
-import NewsLatter from './components/NewsLatter'
-import Testimonials from './components/Testimonials'
-import Trip from './components/Trip'
+import Navbar from './components/Navbar';
+import Partners from './components/Partners';
+import Footer from './components/Footer';
+import Services from './components/Services';
+import Hero from './components/Hero';
+import Destination from './components/Destination';
+import NewsLatter from './components/NewsLatter';
+import Testimonials from './components/Testimonials';
+import Trip from './components/Trip';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Hero/>
+      <Hero />
       <Services />
       <Destination />
       <Trip />
@@ -23,7 +23,7 @@ function App() {
       <Partners />
       <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
