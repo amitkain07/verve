@@ -14,7 +14,7 @@ import { images } from '../assets/projectAssets'
 const Trip = () => {
   return (
     <section className="relative flex flex-col lg:flex-row items-center justify-between gap-10 py-16 px-4 md:px-8 lg:px-0 w-10/12 mx-auto overflow-hidden">
-      {/* Left Section */}
+     
       <div className="w-full lg:w-1/2 space-y-6">
         <span className="text-sm font-semibold text-gray-500">
           Easy and Fast
@@ -24,7 +24,7 @@ const Trip = () => {
         </h1>
 
         <div className="space-y-6 mt-8  max-w-2/3 ">
-          {/* Step 1 */}
+       
           <div className="flex items-start gap-4">
             <div className="bg-yellow-400 p-3 rounded-xl text-white">
               <VectorSquare />
@@ -40,7 +40,7 @@ const Trip = () => {
             </div>
           </div>
 
-          {/* Step 2 */}
+         
           <div className="flex items-start gap-4">
             <div className="bg-red-400 p-3 rounded-xl text-white">
               <WavesLadder />
@@ -56,7 +56,7 @@ const Trip = () => {
             </div>
           </div>
 
-          {/* Step 3 */}
+         
           <div className="flex items-start gap-4">
             <div className="bg-teal-700 p-3 rounded-xl text-white">
               <CarTaxiFront />
@@ -74,7 +74,7 @@ const Trip = () => {
         </div>
       </div>
 
-      {/* Right Section */}
+      
       <div className="relative w-full sm:max-w-sm bg-white rounded-2xl p-5 shadow-[10px_0px_10px_0px] shadow-indigo-500 mt-10 lg:mt-0 lg:right-[60px]">
         <img
           src={images.trip}
@@ -103,7 +103,7 @@ const Trip = () => {
           <Heart className="text-purple-500" />
         </div>
 
-        {/* Ongoing Trip Card */}
+    
         <div className="absolute -right-16 bottom-[50px] w-[230px] bg-white shadow-lg rounded-xl p-4 flex gap-4 items-center max-sm:static max-sm:mt-6">
           <img
             src={images.taj}
